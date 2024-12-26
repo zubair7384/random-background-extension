@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Random Background",
+  "description": "Changes the new tab background to a random image from Unsplash",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
